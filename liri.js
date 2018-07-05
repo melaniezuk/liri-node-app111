@@ -1,6 +1,8 @@
 console.log("hello world");
 
-//require("dotenv").config();																			//read and set any environment variables with the dotenv package
+//require("dotenv").config();																			//this messes up the tweets being pulled, but i know
+																																	//i'm supposed to add it. read and set any environment variables with the 
+																																	//dotenv package
 
 var Twit = require('twit');                                       //initiate twitter npm
 var SpotifyWebApi = require('spotify-web-api-node');              //initiate spotify npm
